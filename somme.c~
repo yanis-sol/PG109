@@ -1,0 +1,13 @@
+#include <stdio.h>
+/* ce programme permet de calculer la somme des n premiers entiers*/
+int main(){
+  int a=5;
+  int b=3
+  int res=0;
+  while(b>0){
+    res=res+a;
+    b=b-1
+  }
+printf("Réultat: %d\n", res);
+return res;
+}
